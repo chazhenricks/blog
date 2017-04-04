@@ -1,0 +1,89 @@
+/**********************************************
+Global
+**********************************************/
+
+body{
+	background: lightgrey;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/**********************************************
+Header
+**********************************************/
+header {
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+}
+
+.nav-bar {
+	float: right;
+}
+
+.nav-bar li{
+	float: left;
+	margin-left: 2em;
+}
+
+
+
+
+/**********************************************
+Articles
+**********************************************/
+
+.wrapper {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+/**********************************************
+Footer
+**********************************************/
+
+footer {
+	width: 100%;
+
+}
+
+.foot-nav {
+	float: left;
+	margin: 0 auto;
+}
+
+.foot-nav li{
+	float: left;
+
+}
+
+
+
+
+/**********************************************
+Clearfix
+**********************************************/
+.clearfix ::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+
